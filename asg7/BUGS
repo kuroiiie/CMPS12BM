@@ -1,0 +1,13 @@
+BUGS
+
+24 		Uninitialized variables: made u and v pointers and allocated memory
+
+24-28	Incorrect syntax: . replaced with ->
+
+26		Different types: &v replaced with v
+
+29		Different types: &u replaced with u
+
+39		Memory leak: added temp node to hold n->next and free temp
+
+58		Memory leak: deleted each item in linked list rather than just freeing head
