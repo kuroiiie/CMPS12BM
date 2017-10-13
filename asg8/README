@@ -1,0 +1,19 @@
+#README
+#Asg8
+
+Run instructions:
+	for using test.txt
+	for normal output:
+		make test
+	for debug output:
+		make testd
+
+Exit status will show error message and usage	
+
+Files included:
+README
+Makefile
+auxlib.java
+queue.java
+tree.java
+xref.java
